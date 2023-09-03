@@ -1,0 +1,136 @@
+.title-page {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.results-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+  
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-search-container{
+  position: absolute;
+  top: 40px;
+  transform: translateX(-45%);
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.results-search-input {
+  padding: 10px;
+  font-size: 18px;
+  width: 300px;
+  border-radius: 15px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.results-search-button {
+  padding: 10px 30px;
+  color: #01d7e4;
+  font-size: 18px;
+  background-color: white;
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 15px; /* Adjust the value to control the roundness */
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 18px;
+  width: 300px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.search-button {
+  padding: 10px 30px;
+  color: #01d7e4;
+  font-size: 18px;
+  background-color: white;
+  margin-left: 5px;
+  border: 2px solid black;
+  border-radius: 15px; /* Adjust the value to control the roundness */
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.search-icon {
+  margin-right: 5px;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.search-results {
+  margin-top: 150px;
+  text-align: center;
+  padding: 20px;
+}
+  
+h2 {
+  margin-bottom: 10px;
+}
+  
+.result-item {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-left: 200px;
+  max-width: 70%;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+  
+.like-count {
+  font-weight: bold;
+}
+
+.reply-count {
+  font-weight: bold;
+}
+
+.retweet-count {
+  font-weight: bold;
+}
+
+.username{
+  font-weight: bold;
+}
+  
+.background-image {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+.icons{
+  background-color: transparent;
+  display:inline-flex;
+  align-items: center;
+}
